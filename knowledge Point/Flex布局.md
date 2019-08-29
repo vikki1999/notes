@@ -6,7 +6,7 @@ flex-direction属性决定主轴的方向（即项目的排列方向）。
   flex-direction: row | row-reverse | column | column-reverse;
 }
 ```
-[picture]: http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071005.png "效果"
+![picture](http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071005.png "效果")
 ##### flex-wrap
 
 ##### flex-flow
