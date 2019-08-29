@@ -1,9 +1,9 @@
-###React.lazy() 和 Suspense
+### React.lazy() 和 Suspense
 
 React.lazy 用于做Code-Splitting，代码拆分。类似于按需加载，渲染的时候才加载代码。
 本质是：在组件渲染的时候，再去加载包含引入路径的组件。等待组件加载的时候，暂停渲染。
 
-#####用法：
+##### 用法：
 
 ```
 import React, {lazy} from 'react';
@@ -18,7 +18,7 @@ function MyComponent() {
 }
 ```
 
-#####lazy(() => import('./OtherComponent'))使用es6的import()返回一个promise，类似于：
+##### lazy(() => import('./OtherComponent'))使用es6的import()返回一个promise，类似于：
 
 ```
 lazy(() => new Promise(resolve =>
@@ -64,6 +64,6 @@ function MyComponent() {
 
 代码简洁，loading可提升至祖先组件，易聚合。相当优雅的解决了条件渲染。
 
-#####相关链接：
+##### 相关链接：
 [react v16.6 动态 import，React.lazy()、Suspense、Error boundaries](http://www.ptbird.cn/react-lazy-suspense-error-boundaries.html#menu_index_2)
 [React新特性实例详解（memo、lazy、suspense、hooks）](http://react-china.org/t/react-memo-lazy-suspense-hooks/28789)
