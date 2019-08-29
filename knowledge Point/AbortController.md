@@ -53,5 +53,7 @@ async request(url, signal = null, init, headers = {}, config = {}) {
 
 ### 相关资料
 [AbortController](https://developer.mozilla.org/zh-CN/docs/Web/API/FetchController)
+
 [fetch进阶指南](http://louiszhai.github.io/2016/11/02/fetch/#abort)
+
 [fetch请求](https://www.cnblogs.com/qq3279338858/p/11057795.html)
