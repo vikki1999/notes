@@ -33,4 +33,4 @@ Bash代码
 
 #### Bash代码
 
-`git config --global http.sslVerifyfalsegit config http.sslVerify"false"`
+`git config --global http.sslVerify "false"`
