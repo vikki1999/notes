@@ -16,3 +16,4 @@ flex-direction属性决定主轴的方向（即项目的排列方向）。
 
 
 [阮一峰flex](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?utm_source=tuicool)
+[前端布局学习指南](https://www.jianshu.com/p/6344e593b4d4)
